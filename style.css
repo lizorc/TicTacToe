@@ -1,0 +1,194 @@
+/* ------------------------------------------------ */
+/*          This is for all .php documents          */
+/* ------------------------------------------------ */
+body{
+    background-color: 	#c2c7fd;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+h1{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 0px;
+    left: 700px;
+}
+
+
+/* ------------------------------------------------ */
+/*        This is for all index.php document        */
+/* ------------------------------------------------ */
+
+
+/*----- THIS IS DECORATION FOR TITTLE IN IMAGE -----*/
+.title{ 
+    float: inherit; 
+    width: 500px;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+}
+/* ------------------------------------------------ */
+/*------- THIS IS DECORATION FOR BOX LOG IN -------*/
+.box-login{
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    background-color: white;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    padding: 40px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 10%;
+
+}
+/* ------------------------------------------------ */
+/*-- THIS IS DECORATION FOR THE TEXTS IN THE BOX ---*/
+.text-login{
+    font-size:25px;
+    font-family: Impact;
+    font-weight: 1200;
+    line-height: 0.8;
+}
+.pass-incorrect{
+    font-size: 15px;
+    font-family: 'Gill Sans';
+}
+/* ------------------------------------------------ */
+/*------- THIS IS DECORATION FOR THE BUTTON -------*/
+.button-login {
+    color: white!important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #fc71a6;
+    border: 4px solid #853553;
+    border-radius: 6px;
+    transition: all 1s ease;
+    position: relative;
+}
+.button-login:hover {
+    background: #4cc4ff;
+    color: rgb(0, 0, 0) !important;
+    border: 4px solid #175c7e;
+}
+/* ------------------------------------------------ */
+/*----- THIS IS DECORATION FOR THE FORMS BARS ------*/
+::-ms-input-user,
+    input[type='text']:active:focus,
+    input[type='text']:hover{
+        outline : none;
+        font-size:20px;
+    }
+::-ms-input-pass,
+    input[type='password']:active:focus,
+    input[type='password']:hover{
+        animation: backwards;
+        outline : none;
+        font-size:20px;
+    }
+
+
+/* ------------------------------------------------ */
+/*         This is for all game.php document        */
+/* ------------------------------------------------ */
+
+
+/*--------- THIS IS DECORATION IN THE PAGE ---------*/
+.Upper-Bar-W{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    height: 50px;
+    width: 1598px;
+    padding: 40px;
+    box-shadow: 4px 4px 10px #666;
+}
+.Upper-Bar-B{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color:#4cc4ff;
+    height: 20px;
+    width: 1619px;
+    padding: 30px;
+    box-shadow: 4px 4px 10px #666;
+}
+.Upper-Bar-P{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fc71a6;
+    height: 0px;
+    width: 1639px;
+    padding: 20px;
+    box-shadow: 4px 4px 10px #666;
+}
+/* ------------------------------------------------ */
+/*------- THIS IS DECORATION FOR THE BUTTONS -------*/
+.button-logout{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 10;
+    padding: 0.5em 1.2em;
+    background: black;
+    border-radius: 6px;
+    position: absolute;
+    top: 92px;
+    left: 1600px;
+
+}
+.button-next{
+    color: white;
+    font-size: 40px;
+    font-weight: 50;
+    padding: 0.5em 1.2em;
+    background: #fc71a6;
+    border: 4px solid #853553;
+    border-radius: 6px;
+    transition: all 1s ease;
+    position: absolute;
+    top: 720px;
+    left: 950px;
+}
+.button-again{
+    color: white!important;
+    font-size: 40px;
+    font-weight: 50;
+    padding: 0.5em 1.2em;
+    background: #4cc4ff;
+    border: 4px solid #175c7e;
+    border-radius: 6px;
+    transition: all 1s ease;
+    position: absolute;
+    top: 720px;
+    left: 152px;
+}
+/* ------------------------------------------------ */
+/*------- THIS IS DECORATION FOR BOXS GAME -------*/
+.box-game{
+    background-color: white;
+    border: 3px solid #6f73a7; ;
+    width: 150px;
+    height: 150px;
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 800px;
+    
+}
+/* ------------------------------------------------ */
+/*------- THIS IS DECORATION FOR RESULTS IN THE GAME -------*/
+.Results{
+    width: 600px;
+    float: inherit; 
+    position: absolute;
+    top: 220px;
+    left: 10px;
+}
